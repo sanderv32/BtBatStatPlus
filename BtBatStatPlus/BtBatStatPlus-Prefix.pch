@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BtBatStatPlus' target in the 'BtBatStatPlus' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

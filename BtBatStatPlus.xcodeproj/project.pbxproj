@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114D0572167B923F00D235D5 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114D0571167B923F00D235D5 /* AboutController.m */; };
+		11681DD0167CA5ED007D6D59 /* ConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11681DCF167CA5ED007D6D59 /* ConfigController.m */; };
+		11681DDB167D2E2B007D6D59 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11681DDA167D2E2B007D6D59 /* Growl.framework */; };
+		11681DDC167D317B007D6D59 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11681DDA167D2E2B007D6D59 /* Growl.framework */; };
+		11681DE0167D3E24007D6D59 /* BtBatStatPlus.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 11681DDF167D3E24007D6D59 /* BtBatStatPlus.growlRegDict */; };
+		11681DE1167D3E62007D6D59 /* BtBatStatPlus.growlRegDict in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11681DDF167D3E24007D6D59 /* BtBatStatPlus.growlRegDict */; };
+		119735871680F4D700569E27 /* AboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119735891680F4D700569E27 /* AboutController.xib */; };
+		11A10202167B331500141844 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A10201167B331500141844 /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		11A1020C167B331500141844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11A1020A167B331500141844 /* InfoPlist.strings */; };
+		11A1020E167B331500141844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A1020D167B331500141844 /* main.m */; };
+		11A10212167B331500141844 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 11A10210167B331500141844 /* Credits.rtf */; };
+		11A10215167B331500141844 /* BBSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A10214167B331500141844 /* BBSPAppDelegate.m */; };
+		11A10218167B331500141844 /* ConfigController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A10216167B331500141844 /* ConfigController.xib */; };
+		11A10224167B337900141844 /* kb.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A1021F167B337900141844 /* kb.png */; };
+		11A10225167B337900141844 /* magic_mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A10220167B337900141844 /* magic_mouse.png */; };
+		11A10226167B337900141844 /* mighty_mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A10221167B337900141844 /* mighty_mouse.png */; };
+		11A10227167B337900141844 /* no_device.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A10222167B337900141844 /* no_device.png */; };
+		11A10228167B337900141844 /* TrackpadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A10223167B337900141844 /* TrackpadIcon.png */; };
+		11A1022C167B340100141844 /* BtBatStat.icns in Resources */ = {isa = PBXBuildFile; fileRef = 11A1022B167B340100141844 /* BtBatStat.icns */; };
+		11A1022F167B4A6300141844 /* NSImage+load.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A1022E167B4A6300141844 /* NSImage+load.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11681DD9167D2DFE007D6D59 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				11681DDC167D317B007D6D59 /* Growl.framework in CopyFiles */,
+				11681DE1167D3E62007D6D59 /* BtBatStatPlus.growlRegDict in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		114D0570167B923F00D235D5 /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		114D0571167B923F00D235D5 /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
+		116243A81686FFE000FEE964 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		11681DCE167CA5ED007D6D59 /* ConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigController.h; sourceTree = "<group>"; };
+		11681DCF167CA5ED007D6D59 /* ConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigController.m; sourceTree = "<group>"; };
+		11681DDA167D2E2B007D6D59 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "Growl-2.0-SDK/Framework/Growl.framework"; sourceTree = "<group>"; };
+		11681DDF167D3E24007D6D59 /* BtBatStatPlus.growlRegDict */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = BtBatStatPlus.growlRegDict; sourceTree = "<group>"; };
+		119735881680F4D700569E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutController.xib; sourceTree = "<group>"; };
+		11A101FD167B331500141844 /* BtBatStatPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BtBatStatPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A10201167B331500141844 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		11A10204167B331500141844 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		11A10205167B331500141844 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		11A10206167B331500141844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11A10209167B331500141844 /* BtBatStatPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BtBatStatPlus-Info.plist"; sourceTree = "<group>"; };
+		11A1020B167B331500141844 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11A1020D167B331500141844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11A1020F167B331500141844 /* BtBatStatPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BtBatStatPlus-Prefix.pch"; sourceTree = "<group>"; };
+		11A10211167B331500141844 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		11A10213167B331500141844 /* BBSPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSPAppDelegate.h; sourceTree = "<group>"; };
+		11A10214167B331500141844 /* BBSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSPAppDelegate.m; sourceTree = "<group>"; };
+		11A10217167B331500141844 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ConfigController.xib; sourceTree = "<group>"; };
+		11A1021F167B337900141844 /* kb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kb.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/kb.png; sourceTree = "<group>"; };
+		11A10220167B337900141844 /* magic_mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magic_mouse.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/magic_mouse.png; sourceTree = "<group>"; };
+		11A10221167B337900141844 /* mighty_mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mighty_mouse.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/mighty_mouse.png; sourceTree = "<group>"; };
+		11A10222167B337900141844 /* no_device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no_device.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/no_device.png; sourceTree = "<group>"; };
+		11A10223167B337900141844 /* TrackpadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackpadIcon.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/TrackpadIcon.png; sourceTree = "<group>"; };
+		11A1022B167B340100141844 /* BtBatStat.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BtBatStat.icns; path = ../BtBatStat.icns; sourceTree = "<group>"; };
+		11A1022D167B4A6300141844 /* NSImage+load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+load.h"; sourceTree = "<group>"; };
+		11A1022E167B4A6300141844 /* NSImage+load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+load.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A101FA167B331500141844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A10202167B331500141844 /* Cocoa.framework in Frameworks */,
+				11681DDB167D2E2B007D6D59 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A101F2167B331500141844 = {
+			isa = PBXGroup;
+			children = (
+				11A10207167B331500141844 /* BtBatStatPlus */,
+				11A10200167B331500141844 /* Frameworks */,
+				11A101FE167B331500141844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11A101FE167B331500141844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A101FD167B331500141844 /* BtBatStatPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11A10200167B331500141844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11A10201167B331500141844 /* Cocoa.framework */,
+				11A10203167B331500141844 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11A10203167B331500141844 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11681DDA167D2E2B007D6D59 /* Growl.framework */,
+				11A10204167B331500141844 /* AppKit.framework */,
+				11A10205167B331500141844 /* CoreData.framework */,
+				11A10206167B331500141844 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		11A10207167B331500141844 /* BtBatStatPlus */ = {
+			isa = PBXGroup;
+			children = (
+				114D0570167B923F00D235D5 /* AboutController.h */,
+				114D0571167B923F00D235D5 /* AboutController.m */,
+				119735891680F4D700569E27 /* AboutController.xib */,
+				11A1022D167B4A6300141844 /* NSImage+load.h */,
+				11A1022E167B4A6300141844 /* NSImage+load.m */,
+				11A10213167B331500141844 /* BBSPAppDelegate.h */,
+				11A10214167B331500141844 /* BBSPAppDelegate.m */,
+				11681DCE167CA5ED007D6D59 /* ConfigController.h */,
+				11681DCF167CA5ED007D6D59 /* ConfigController.m */,
+				11A10216167B331500141844 /* ConfigController.xib */,
+				11A10208167B331500141844 /* Supporting Files */,
+			);
+			path = BtBatStatPlus;
+			sourceTree = "<group>";
+		};
+		11A10208167B331500141844 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11A1021E167B333C00141844 /* Images */,
+				11A10209167B331500141844 /* BtBatStatPlus-Info.plist */,
+				11A1020A167B331500141844 /* InfoPlist.strings */,
+				11A1020D167B331500141844 /* main.m */,
+				11A1020F167B331500141844 /* BtBatStatPlus-Prefix.pch */,
+				11A10210167B331500141844 /* Credits.rtf */,
+				11681DDF167D3E24007D6D59 /* BtBatStatPlus.growlRegDict */,
+				116243A81686FFE000FEE964 /* README.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11A1021E167B333C00141844 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				11A1022B167B340100141844 /* BtBatStat.icns */,
+				11A1021F167B337900141844 /* kb.png */,
+				11A10220167B337900141844 /* magic_mouse.png */,
+				11A10221167B337900141844 /* mighty_mouse.png */,
+				11A10222167B337900141844 /* no_device.png */,
+				11A10223167B337900141844 /* TrackpadIcon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A101FC167B331500141844 /* BtBatStatPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A1021B167B331500141844 /* Build configuration list for PBXNativeTarget "BtBatStatPlus" */;
+			buildPhases = (
+				11A101F9167B331500141844 /* Sources */,
+				11A101FA167B331500141844 /* Frameworks */,
+				11A101FB167B331500141844 /* Resources */,
+				11681DD9167D2DFE007D6D59 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BtBatStatPlus;
+			productName = BtBatStatPlus;
+			productReference = 11A101FD167B331500141844 /* BtBatStatPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A101F4167B331500141844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBSP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = A.Verhaar;
+			};
+			buildConfigurationList = 11A101F7167B331500141844 /* Build configuration list for PBXProject "BtBatStatPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11A101F2167B331500141844;
+			productRefGroup = 11A101FE167B331500141844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A101FC167B331500141844 /* BtBatStatPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A101FB167B331500141844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1020C167B331500141844 /* InfoPlist.strings in Resources */,
+				11A10212167B331500141844 /* Credits.rtf in Resources */,
+				11A10218167B331500141844 /* ConfigController.xib in Resources */,
+				11A10224167B337900141844 /* kb.png in Resources */,
+				11A10225167B337900141844 /* magic_mouse.png in Resources */,
+				11A10226167B337900141844 /* mighty_mouse.png in Resources */,
+				11A10227167B337900141844 /* no_device.png in Resources */,
+				11A10228167B337900141844 /* TrackpadIcon.png in Resources */,
+				11A1022C167B340100141844 /* BtBatStat.icns in Resources */,
+				119735871680F4D700569E27 /* AboutController.xib in Resources */,
+				11681DE0167D3E24007D6D59 /* BtBatStatPlus.growlRegDict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A101F9167B331500141844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A1020E167B331500141844 /* main.m in Sources */,
+				11A10215167B331500141844 /* BBSPAppDelegate.m in Sources */,
+				11A1022F167B4A6300141844 /* NSImage+load.m in Sources */,
+				114D0572167B923F00D235D5 /* AboutController.m in Sources */,
+				11681DD0167CA5ED007D6D59 /* ConfigController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		119735891680F4D700569E27 /* AboutController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				119735881680F4D700569E27 /* en */,
+			);
+			name = AboutController.xib;
+			sourceTree = "<group>";
+		};
+		11A1020A167B331500141844 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A1020B167B331500141844 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11A10210167B331500141844 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A10211167B331500141844 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		11A10216167B331500141844 /* ConfigController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11A10217167B331500141844 /* en */,
+			);
+			name = ConfigController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11A10219167B331500141844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		11A1021A167B331500141844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		11A1021C167B331500141844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Growl-2.0-SDK/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BtBatStatPlus/BtBatStatPlus-Prefix.pch";
+				INFOPLIST_FILE = "BtBatStatPlus/BtBatStatPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11A1021D167B331500141844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Growl-2.0-SDK/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BtBatStatPlus/BtBatStatPlus-Prefix.pch";
+				INFOPLIST_FILE = "BtBatStatPlus/BtBatStatPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A101F7167B331500141844 /* Build configuration list for PBXProject "BtBatStatPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A10219167B331500141844 /* Debug */,
+				11A1021A167B331500141844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A1021B167B331500141844 /* Build configuration list for PBXNativeTarget "BtBatStatPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A1021C167B331500141844 /* Debug */,
+				11A1021D167B331500141844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11A101F4167B331500141844 /* Project object */;
+}
