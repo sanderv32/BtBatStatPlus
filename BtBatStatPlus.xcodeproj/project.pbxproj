@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		114D0572167B923F00D235D5 /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 114D0571167B923F00D235D5 /* AboutController.m */; };
+		116243B21688897500FEE964 /* kb.png in Resources */ = {isa = PBXBuildFile; fileRef = 116243AD1688897500FEE964 /* kb.png */; };
+		116243B31688897500FEE964 /* magic_mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 116243AE1688897500FEE964 /* magic_mouse.png */; };
+		116243B41688897500FEE964 /* mighty_mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 116243AF1688897500FEE964 /* mighty_mouse.png */; };
+		116243B51688897500FEE964 /* no_device.png in Resources */ = {isa = PBXBuildFile; fileRef = 116243B01688897500FEE964 /* no_device.png */; };
+		116243B61688897500FEE964 /* TrackpadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 116243B11688897500FEE964 /* TrackpadIcon.png */; };
 		11681DD0167CA5ED007D6D59 /* ConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11681DCF167CA5ED007D6D59 /* ConfigController.m */; };
 		11681DDB167D2E2B007D6D59 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11681DDA167D2E2B007D6D59 /* Growl.framework */; };
 		11681DDC167D317B007D6D59 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11681DDA167D2E2B007D6D59 /* Growl.framework */; };
@@ -20,11 +25,6 @@
 		11A10212167B331500141844 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 11A10210167B331500141844 /* Credits.rtf */; };
 		11A10215167B331500141844 /* BBSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A10214167B331500141844 /* BBSPAppDelegate.m */; };
 		11A10218167B331500141844 /* ConfigController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A10216167B331500141844 /* ConfigController.xib */; };
-		11A10224167B337900141844 /* kb.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A1021F167B337900141844 /* kb.png */; };
-		11A10225167B337900141844 /* magic_mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A10220167B337900141844 /* magic_mouse.png */; };
-		11A10226167B337900141844 /* mighty_mouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A10221167B337900141844 /* mighty_mouse.png */; };
-		11A10227167B337900141844 /* no_device.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A10222167B337900141844 /* no_device.png */; };
-		11A10228167B337900141844 /* TrackpadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A10223167B337900141844 /* TrackpadIcon.png */; };
 		11A1022C167B340100141844 /* BtBatStat.icns in Resources */ = {isa = PBXBuildFile; fileRef = 11A1022B167B340100141844 /* BtBatStat.icns */; };
 		11A1022F167B4A6300141844 /* NSImage+load.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A1022E167B4A6300141844 /* NSImage+load.m */; };
 /* End PBXBuildFile section */
@@ -46,7 +46,11 @@
 /* Begin PBXFileReference section */
 		114D0570167B923F00D235D5 /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
 		114D0571167B923F00D235D5 /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
-		116243A81686FFE000FEE964 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		116243AD1688897500FEE964 /* kb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kb.png; path = Images/kb.png; sourceTree = "<group>"; };
+		116243AE1688897500FEE964 /* magic_mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magic_mouse.png; path = Images/magic_mouse.png; sourceTree = "<group>"; };
+		116243AF1688897500FEE964 /* mighty_mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mighty_mouse.png; path = Images/mighty_mouse.png; sourceTree = "<group>"; };
+		116243B01688897500FEE964 /* no_device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no_device.png; path = Images/no_device.png; sourceTree = "<group>"; };
+		116243B11688897500FEE964 /* TrackpadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackpadIcon.png; path = Images/TrackpadIcon.png; sourceTree = "<group>"; };
 		11681DCE167CA5ED007D6D59 /* ConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigController.h; sourceTree = "<group>"; };
 		11681DCF167CA5ED007D6D59 /* ConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigController.m; sourceTree = "<group>"; };
 		11681DDA167D2E2B007D6D59 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "Growl-2.0-SDK/Framework/Growl.framework"; sourceTree = "<group>"; };
@@ -65,11 +69,6 @@
 		11A10213167B331500141844 /* BBSPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSPAppDelegate.h; sourceTree = "<group>"; };
 		11A10214167B331500141844 /* BBSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSPAppDelegate.m; sourceTree = "<group>"; };
 		11A10217167B331500141844 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ConfigController.xib; sourceTree = "<group>"; };
-		11A1021F167B337900141844 /* kb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kb.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/kb.png; sourceTree = "<group>"; };
-		11A10220167B337900141844 /* magic_mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = magic_mouse.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/magic_mouse.png; sourceTree = "<group>"; };
-		11A10221167B337900141844 /* mighty_mouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mighty_mouse.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/mighty_mouse.png; sourceTree = "<group>"; };
-		11A10222167B337900141844 /* no_device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no_device.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/no_device.png; sourceTree = "<group>"; };
-		11A10223167B337900141844 /* TrackpadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrackpadIcon.png; path = ../../../../../../Applications/BtBatStat.app/Contents/Resources/icons/TrackpadIcon.png; sourceTree = "<group>"; };
 		11A1022B167B340100141844 /* BtBatStat.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BtBatStat.icns; path = ../BtBatStat.icns; sourceTree = "<group>"; };
 		11A1022D167B4A6300141844 /* NSImage+load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+load.h"; sourceTree = "<group>"; };
 		11A1022E167B4A6300141844 /* NSImage+load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+load.m"; sourceTree = "<group>"; };
@@ -153,7 +152,6 @@
 				11A1020F167B331500141844 /* BtBatStatPlus-Prefix.pch */,
 				11A10210167B331500141844 /* Credits.rtf */,
 				11681DDF167D3E24007D6D59 /* BtBatStatPlus.growlRegDict */,
-				116243A81686FFE000FEE964 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,12 +159,12 @@
 		11A1021E167B333C00141844 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				116243AD1688897500FEE964 /* kb.png */,
+				116243AE1688897500FEE964 /* magic_mouse.png */,
+				116243AF1688897500FEE964 /* mighty_mouse.png */,
+				116243B01688897500FEE964 /* no_device.png */,
+				116243B11688897500FEE964 /* TrackpadIcon.png */,
 				11A1022B167B340100141844 /* BtBatStat.icns */,
-				11A1021F167B337900141844 /* kb.png */,
-				11A10220167B337900141844 /* magic_mouse.png */,
-				11A10221167B337900141844 /* mighty_mouse.png */,
-				11A10222167B337900141844 /* no_device.png */,
-				11A10223167B337900141844 /* TrackpadIcon.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -227,14 +225,14 @@
 				11A1020C167B331500141844 /* InfoPlist.strings in Resources */,
 				11A10212167B331500141844 /* Credits.rtf in Resources */,
 				11A10218167B331500141844 /* ConfigController.xib in Resources */,
-				11A10224167B337900141844 /* kb.png in Resources */,
-				11A10225167B337900141844 /* magic_mouse.png in Resources */,
-				11A10226167B337900141844 /* mighty_mouse.png in Resources */,
-				11A10227167B337900141844 /* no_device.png in Resources */,
-				11A10228167B337900141844 /* TrackpadIcon.png in Resources */,
 				11A1022C167B340100141844 /* BtBatStat.icns in Resources */,
 				119735871680F4D700569E27 /* AboutController.xib in Resources */,
 				11681DE0167D3E24007D6D59 /* BtBatStatPlus.growlRegDict in Resources */,
+				116243B21688897500FEE964 /* kb.png in Resources */,
+				116243B31688897500FEE964 /* magic_mouse.png in Resources */,
+				116243B41688897500FEE964 /* mighty_mouse.png in Resources */,
+				116243B51688897500FEE964 /* no_device.png in Resources */,
+				116243B61688897500FEE964 /* TrackpadIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
