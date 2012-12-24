@@ -15,5 +15,5 @@ int main(int argc, char *argv[])
     BBSPAppDelegate *appDelegate = [[BBSPAppDelegate alloc] init];
     [app setDelegate:appDelegate];
     [app run];
-    //return NSApplicationMain(argc, (const char **)argv);
+    return 0;
 }
