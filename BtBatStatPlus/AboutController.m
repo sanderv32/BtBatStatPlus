@@ -18,15 +18,6 @@
     return self;
 }
 
-- (id)initWithWindow:(NSWindow *)window
-{
-    self = [super initWithWindow:window];
-    if (self) {
-        NSLog(@"initWithWindow");
-    }
-    return self;
-}
-
 - (void)awakeFromNib
 {
     NSBundle *bundle = [NSBundle mainBundle];

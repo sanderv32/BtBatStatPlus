@@ -229,14 +229,6 @@
 }
 
 /*
- * Configuration quit, re-read warning and critical levels
- */
-- (IBAction)configPressedOK:(NSButton *)sender
-{
-    
-}
-
-/*
  * Start ioreg and get battery percentage
  */
 -(NSInteger) getPercentage:(NSString *)key
