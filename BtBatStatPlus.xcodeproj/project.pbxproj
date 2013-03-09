@@ -27,6 +27,7 @@
 		11A10218167B331500141844 /* ConfigController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A10216167B331500141844 /* ConfigController.xib */; };
 		11A1022C167B340100141844 /* BtBatStat.icns in Resources */ = {isa = PBXBuildFile; fileRef = 11A1022B167B340100141844 /* BtBatStat.icns */; };
 		11A1022F167B4A6300141844 /* NSImage+load.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A1022E167B4A6300141844 /* NSImage+load.m */; };
+		11CB1FB016EB7644004AA927 /* BtBatStatPlus.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 11CB1FAF16EB7644004AA927 /* BtBatStatPlus.dmg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +73,7 @@
 		11A1022B167B340100141844 /* BtBatStat.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BtBatStat.icns; path = ../BtBatStat.icns; sourceTree = "<group>"; };
 		11A1022D167B4A6300141844 /* NSImage+load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+load.h"; sourceTree = "<group>"; };
 		11A1022E167B4A6300141844 /* NSImage+load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+load.m"; sourceTree = "<group>"; };
+		11CB1FAF16EB7644004AA927 /* BtBatStatPlus.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = BtBatStatPlus.dmg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		11A101F2167B331500141844 = {
 			isa = PBXGroup;
 			children = (
+				11CB1FAE16EB7618004AA927 /* DMG */,
 				11A10207167B331500141844 /* BtBatStatPlus */,
 				11A10200167B331500141844 /* Frameworks */,
 				11A101FE167B331500141844 /* Products */,
@@ -169,6 +172,14 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		11CB1FAE16EB7618004AA927 /* DMG */ = {
+			isa = PBXGroup;
+			children = (
+				11CB1FAF16EB7644004AA927 /* BtBatStatPlus.dmg */,
+			);
+			name = DMG;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,7 +209,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BBSP;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = A.Verhaar;
 			};
 			buildConfigurationList = 11A101F7167B331500141844 /* Build configuration list for PBXProject "BtBatStatPlus" */;
@@ -234,6 +245,7 @@
 				116243B41688897500FEE964 /* mighty_mouse.png in Resources */,
 				116243B51688897500FEE964 /* no_device.png in Resources */,
 				116243B61688897500FEE964 /* TrackpadIcon.png in Resources */,
+				11CB1FB016EB7644004AA927 /* BtBatStatPlus.dmg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +344,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -355,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
