@@ -177,7 +177,7 @@
     devicesFound = 0;
     
     for(id device in [devices allKeys]) {
-        if (device == @"noDevices") continue;
+        if ([device isEqual: @"noDevices"]) continue;
         
         NSInteger percentage = [self getPercentage:[[devices objectForKey:device] objectAtIndex:DEVIDIDX]];
         NSString *strPercentage = [NSString stringWithFormat:@"%ld",percentage];
@@ -233,7 +233,7 @@
  */
 -(NSInteger) getPercentage:(NSString *)key
 {
-    NSInteger percentage;
+    NSInteger percentage = -1;
     NSString *mText;
     NSTask *task = [[NSTask alloc] init];
     NSPipe *pipe = [NSPipe pipe];
@@ -248,7 +248,7 @@
     NSString *data = [[NSString alloc] initWithData:dataRead encoding:NSASCIIStringEncoding];
     [task waitUntilExit];
     
-    if (dataRead > 0) {
+    if (dataRead.length > 0) {
         NSError *error = nil;
         NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"BatteryPercent\" = (\\d{1,2}0?)" options:0 error:&error];
         NSArray *matches = [regex matchesInString:data options:0 range:NSMakeRange(0, [data length])];
@@ -258,8 +258,7 @@
                 mText = [data substringWithRange:[match rangeAtIndex:1]];
             }
             percentage = [mText integerValue];
-        } else
-            percentage = -1;
+        }
     }
     return percentage;
 }

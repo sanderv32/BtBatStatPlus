@@ -33,7 +33,6 @@
 @property (nonatomic, retain) AboutController *aboutController;
 @property (nonatomic, retain) ConfigController *configController;
 
-- (IBAction)configPressedOK:(NSButton *)sender;
 - (IBAction)about:(id)sender;
 - (IBAction)config:(id)sender;
 - (IBAction)quit:(id)sender;
