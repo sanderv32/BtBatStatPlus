@@ -228,6 +228,7 @@
     }
 }
 
+#ifdef USE_IOREG
 /*
  * Start ioreg and get battery percentage
  */
@@ -262,4 +263,45 @@
     }
     return percentage;
 }
-@end
+#else
+/*
+ * Query IOService for the HID devices
+ */
+-(NSInteger) getPercentage:(NSString *)key
+{
+    CFMutableDictionaryRef matchingDict;
+    CFTypeRef percentage;
+    io_iterator_t iterator;
+    kern_return_t result;
+    io_service_t device;
+    NSInteger retval = 0;
+    
+    matchingDict = IOServiceMatching([key cStringUsingEncoding:NSASCIIStringEncoding]);
+    if (matchingDict==NULL) {
+        return -1;
+    }
+    
+    result = IOServiceGetMatchingServices(kIOMasterPortDefault, matchingDict, &iterator);
+    if (result != KERN_SUCCESS || iterator == IO_OBJECT_NULL) {
+        return -1;
+    }
+    
+    while ((device = IOIteratorNext(iterator))) {
+        percentage = IORegistryEntryCreateCFProperty(device, CFSTR("BatteryPercent"), kCFAllocatorDefault, 0);
+        IOObjectRelease(device);
+    }
+    IOObjectRelease(iterator);
+    
+    /* Be sure we got a number in percentage */
+    if (CFGetTypeID(percentage)!=CFNumberGetTypeID())
+        return -1;
+    
+    /* Convert CFTypeRef to SInt32 */
+    if (CFNumberGetValue((CFTypeRef)percentage, kCFNumberSInt32Type, &retval))
+        return retval;
+    else
+        return -1;
+}
+#endif
+
+@end /* Implementation */

@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <Growl/Growl.h>
+#import <IOKit/hidsystem/IOHIDParameter.h>
 #import "AboutController.h"
 #import "ConfigController.h"
 

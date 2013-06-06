@@ -18,6 +18,7 @@
 		11681DDC167D317B007D6D59 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11681DDA167D2E2B007D6D59 /* Growl.framework */; };
 		11681DE0167D3E24007D6D59 /* BtBatStatPlus.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 11681DDF167D3E24007D6D59 /* BtBatStatPlus.growlRegDict */; };
 		11681DE1167D3E62007D6D59 /* BtBatStatPlus.growlRegDict in CopyFiles */ = {isa = PBXBuildFile; fileRef = 11681DDF167D3E24007D6D59 /* BtBatStatPlus.growlRegDict */; };
+		116E285F17608A5800650A04 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116E285E17608A5800650A04 /* IOKit.framework */; };
 		119735871680F4D700569E27 /* AboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119735891680F4D700569E27 /* AboutController.xib */; };
 		11A10202167B331500141844 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A10201167B331500141844 /* Cocoa.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		11A1020C167B331500141844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11A1020A167B331500141844 /* InfoPlist.strings */; };
@@ -56,6 +57,7 @@
 		11681DCF167CA5ED007D6D59 /* ConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigController.m; sourceTree = "<group>"; };
 		11681DDA167D2E2B007D6D59 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = "Growl-2.0-SDK/Framework/Growl.framework"; sourceTree = "<group>"; };
 		11681DDF167D3E24007D6D59 /* BtBatStatPlus.growlRegDict */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = BtBatStatPlus.growlRegDict; sourceTree = "<group>"; };
+		116E285E17608A5800650A04 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		119735881680F4D700569E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AboutController.xib; sourceTree = "<group>"; };
 		11A101FD167B331500141844 /* BtBatStatPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BtBatStatPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A10201167B331500141844 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -81,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116E285F17608A5800650A04 /* IOKit.framework in Frameworks */,
 				11A10202167B331500141844 /* Cocoa.framework in Frameworks */,
 				11681DDB167D2E2B007D6D59 /* Growl.framework in Frameworks */,
 			);
@@ -110,6 +113,10 @@
 		11A10200167B331500141844 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				11A10206167B331500141844 /* Foundation.framework */,
+				11A10205167B331500141844 /* CoreData.framework */,
+				11A10204167B331500141844 /* AppKit.framework */,
+				116E285E17608A5800650A04 /* IOKit.framework */,
 				11A10201167B331500141844 /* Cocoa.framework */,
 				11A10203167B331500141844 /* Other Frameworks */,
 			);
@@ -120,9 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				11681DDA167D2E2B007D6D59 /* Growl.framework */,
-				11A10204167B331500141844 /* AppKit.framework */,
-				11A10205167B331500141844 /* CoreData.framework */,
-				11A10206167B331500141844 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
