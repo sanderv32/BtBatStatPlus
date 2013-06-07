@@ -37,6 +37,7 @@
         /* Key doesn't exist so create defaults and write them back to disk */
         warnLevel = 10;
         critLevel = 5;
+        useGrowl = growlRunning;
         [prefs setInteger:warnLevel forKey:@"warnLevel"];
         [prefs setInteger:critLevel forKey:@"critLevel"];
         [prefs setBool:growlRunning ? YES:NO forKey:@"useGrowl"];
@@ -44,6 +45,7 @@
     } else {
         warnLevel = [prefs integerForKey:@"warnLevel"];
         critLevel = [prefs integerForKey:@"critLevel"];
+        useGrowl = [prefs boolForKey:@"useGrowl"];
     }
     
     barItems    =   [[NSMutableDictionary alloc] init];
@@ -213,7 +215,7 @@
  */
 -(void) sendMessage:(NSString *)device type:(BBSP_Msg_Type)t
 {
-    if (growlRunning) {
+    if (growlRunning && useGrowl) {
         NSString *identifier = [@"BtBatStat+" stringByAppendingString:device];
         NSString *msg = (t==EWarning)?@"Battery low!":@"Battery critical!";
         NSString *dev = [[devices objectForKey:device] objectAtIndex:FNAMEIDX];

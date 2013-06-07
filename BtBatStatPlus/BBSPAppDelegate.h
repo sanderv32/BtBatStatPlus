@@ -28,6 +28,7 @@
     NSInteger warnLevel;
     NSInteger critLevel;
     BOOL growlRunning;
+    BOOL useGrowl;
 }
 
 @property (assign) IBOutlet NSWindow *window;
