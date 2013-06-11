@@ -3,7 +3,7 @@
 //  BtBatStatPlus
 //
 //  Created by Alexander Verhaar on 12/14/12.
-//  Copyright (c) 2012 A.Verhaar. All rights reserved.
+//  Copyright (c) 2012-2013 A.Verhaar. All rights reserved.
 //
 
 #import "AboutController.h"
