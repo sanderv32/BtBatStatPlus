@@ -35,15 +35,17 @@
 {
     NSInteger warnLevel = [sliderWarn integerValue];
     NSInteger critLevel = [sliderCrit integerValue];
+    BOOL useGrowl = cbGrowl.state==NSOnState ? YES:NO;
     
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     [prefs setInteger:warnLevel forKey:@"warnLevel"];
     [prefs setInteger:critLevel forKey:@"critLevel"];
-    [prefs setBool:cbGrowl.state==NSOnState ? YES:NO forKey:@"useGrowl"];
+    [prefs setBool:useGrowl forKey:@"useGrowl"];
     [prefs synchronize];
     
     NSArray *levels = [NSArray arrayWithObjects:[NSNumber numberWithLong:warnLevel], [NSNumber numberWithLong:critLevel], nil];
-    NSDictionary *userInfo = [NSDictionary dictionaryWithObject:levels forKey:@"levels"];
+    NSMutableDictionary *userInfo = [NSMutableDictionary dictionaryWithObject:levels forKey:@"levels"];
+    [userInfo setValue:[NSNumber numberWithBool:useGrowl] forKey:@"useGrowl"];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"BBSPNotification" object:self userInfo:userInfo];
     [self close];
 }

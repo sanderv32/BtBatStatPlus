@@ -112,6 +112,7 @@
         NSArray *levels = [userInfo objectForKey:@"levels"];
         warnLevel = [[levels objectAtIndex:0] intValue];
         critLevel = [[levels objectAtIndex:1] intValue];
+        useGrowl = [[userInfo objectForKey:@"useGrowl"] boolValue];
     }
 }
 
